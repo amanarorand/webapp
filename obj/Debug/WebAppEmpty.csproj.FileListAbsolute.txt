@@ -65,3 +65,5 @@ D:\apps\webapiapp\WebAppEmpty\bin\Microsoft.Owin.Security.Cookies.xml
 D:\apps\webapiapp\WebAppEmpty\bin\Microsoft.Owin.Security.OAuth.xml
 D:\apps\webapiapp\WebAppEmpty\bin\Microsoft.Owin.Cors.dll
 D:\apps\webapiapp\WebAppEmpty\bin\Microsoft.Owin.Cors.xml
+F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.dll
+F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.pdb
