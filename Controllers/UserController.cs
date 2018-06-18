@@ -33,12 +33,14 @@ namespace WebAppEmpty.Controllers
                 userService.AddUser(user);
                 return Request.CreateResponse(HttpStatusCode.OK, Resources.User.MsgUserCreated);
             }
-        }
-        //[Route("User/List")]
+        }     
         public IEnumerable<User> Get()
         {
-            return userService.getAll();
-            //return Request.CreateResponse(HttpStatusCode.OK,userService.getAll());
+            return userService.getAll();          
+        }
+        public User Get(int id)
+        {
+            return userService.get(id);            
         }
     }
 }

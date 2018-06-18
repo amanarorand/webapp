@@ -65,6 +65,5 @@ F:\work\WebApiGit\WebAppEmpty\bin\Unity.Interception.Configuration.pdb
 F:\work\WebApiGit\WebAppEmpty\bin\Unity.RegistrationByConvention.pdb
 F:\work\WebApiGit\WebAppEmpty\bin\Unity.ServiceLocation.pdb
 F:\work\WebApiGit\WebAppEmpty\bin\System.Web.Http.WebHost.xml
-F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csprojAssemblyReference.cache
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csproj.CopyComplete

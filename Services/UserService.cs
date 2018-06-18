@@ -22,7 +22,16 @@ namespace WebAppEmpty.Services
             using (var context = new CustomDBContext())
             {
                 var data = context.Users.ToList().AsEnumerable();
-                return data;          
+                return data;
+            }
+        }
+
+        public User get(int id)
+        {
+            using (var context = new CustomDBContext())
+            {
+                var data = context.Users.Where(p => p.ID == id).First();
+                return data;
             }
         }
 
@@ -30,7 +39,7 @@ namespace WebAppEmpty.Services
         {
             using (var context = new CustomDBContext())
             {
-                return context.Users.Where(p => p.Email == email).Count() == 1;                
+                return context.Users.Where(p => p.Email == email).Count() == 1;
             }
         }
 
@@ -42,5 +51,6 @@ namespace WebAppEmpty.Services
         bool IsUserExits(string email);
 
         IEnumerable<User> getAll();
+        User get(int id);
     }
 }
