@@ -10,6 +10,7 @@ using WebAppEmpty.Services;
 
 namespace WebAppEmpty.Controllers
 {
+    [RoutePrefix("api/User")]
     public class UserController : ApiController
     {
         private IUserService userService;
@@ -41,6 +42,13 @@ namespace WebAppEmpty.Controllers
         public User Get(int id)
         {
             return userService.get(id);            
+        }
+
+        [HttpPost]
+        [Route("modify")]
+        public void Modify(User user)
+        {
+            userService.SaveUser(user);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace WebAppEmpty.Services
         {
             using (var context = new CustomDBContext())
             {
-                context.Users.Add(user);
+                context.Users.Add(user);                
                 context.SaveChanges();
             }
         }
@@ -43,6 +43,15 @@ namespace WebAppEmpty.Services
             }
         }
 
+        public void SaveUser(User user)
+        {
+            using (var context = new CustomDBContext())
+            {               
+                context.Users.Attach(user);
+                context.Entry(user).State = System.Data.Entity.EntityState.Modified;
+                context.SaveChanges();
+            }
+        }
     }
 
     public interface IUserService
@@ -52,5 +61,6 @@ namespace WebAppEmpty.Services
 
         IEnumerable<User> getAll();
         User get(int id);
+        void SaveUser(User user);
     }
 }

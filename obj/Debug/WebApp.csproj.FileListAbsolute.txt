@@ -1,5 +1,3 @@
-F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.dll
-F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.pdb
 F:\work\WebApiGit\WebAppEmpty\bin\roslyn\csc.exe
 F:\work\WebApiGit\WebAppEmpty\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 F:\work\WebApiGit\WebAppEmpty\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -67,3 +65,5 @@ F:\work\WebApiGit\WebAppEmpty\bin\Unity.ServiceLocation.pdb
 F:\work\WebApiGit\WebAppEmpty\bin\System.Web.Http.WebHost.xml
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csproj.CopyComplete
+F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.dll
+F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.pdb

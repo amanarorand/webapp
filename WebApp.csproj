@@ -186,6 +186,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\MessageHandlers\CustomDelegateHandler.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migration\Configurartion.cs" />
     <Compile Include="Models\CustomDBContext.cs" />
     <Compile Include="Models\IProductService.cs" />
     <Compile Include="Models\ProductService.cs" />

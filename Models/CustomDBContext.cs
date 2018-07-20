@@ -10,8 +10,13 @@ namespace WebAppEmpty.Models
     {
         public CustomDBContext() : base("custom")
         {
-
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<CustomDBContext, WebAppEmpty.Migrations.Configuration>());
+            
         }
         public DbSet<User> Users { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);           
+        }
     }
 }
