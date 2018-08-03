@@ -67,3 +67,8 @@ F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebApp.csproj.CopyComplete
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.dll
 F:\work\WebApiGit\WebAppEmpty\obj\Debug\WebAppEmpty.pdb
+F:\work\WebApiGit\WebAppEmpty\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\work\WebApiGit\WebAppEmpty\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\work\WebApiGit\WebAppEmpty\bin\Antlr3.Runtime.dll
+F:\work\WebApiGit\WebAppEmpty\bin\Microsoft.Web.Infrastructure.dll
+F:\work\WebApiGit\WebAppEmpty\bin\Antlr3.Runtime.pdb

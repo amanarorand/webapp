@@ -8,6 +8,7 @@ using Microsoft.Owin.Security.OAuth;
 using WebAppEmpty.Providers;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Cors;
+using WebAppEmpty.Models;
 [assembly: OwinStartup(typeof(WebAppEmpty.Startup))]
 namespace WebAppEmpty
 {
@@ -16,6 +17,7 @@ namespace WebAppEmpty
         public void Configuration(IAppBuilder app)
         {
             app.UseCors(CorsOptions.AllowAll);
+            app.CreatePerOwinContext(ApplicationDbContext.Create);
             //app.UseCookieAuthentication(new CookieAuthenticationOptions());
             var config = new OAuthAuthorizationServerOptions()
             {
